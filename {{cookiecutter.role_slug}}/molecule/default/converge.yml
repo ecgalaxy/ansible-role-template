@@ -1,0 +1,11 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: Include {{ cookiecutter.role_slug }}
+      ansible.builtin.include_role:
+        name: {{ cookiecutter.role_slug }}
+  environment:
+    http_proxy: {% raw %}"{{ lookup('env', 'http_proxy') }}"{% endraw %}
+    https_proxy: {% raw %}"{{ lookup('env', 'https_proxy') }}"{% endraw %}
+    no_proxy: {% raw %}"{{ lookup('env', 'no_proxy') }}"{% endraw %}

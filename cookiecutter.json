@@ -1,0 +1,5 @@
+{
+  "role_name": "My ECGALAXY Ansible role",
+  "role_slug": "{{ cookiecutter.role_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "role_description": "{{ cookiecutter.role_name }}"
+}
