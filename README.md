@@ -7,4 +7,4 @@ ECGALAXY Ansible roles.
 Usage
 -----
 
-`cookiecutter gl:ecgalaxy/ansible-role-template`
+`cookiecutter gh:ecgalaxy/ansible-role-template`
