@@ -25,6 +25,15 @@ Example Playbook
       roles:
         - ecgalaxy.{{ cookiecutter.role_slug }}
 
+One-liner
+---------
+
+    bash <(curl -s https://code.europa.eu/-/snippets/1/raw/main/ansible-role.sh) ecgalaxy.{{ cookiecutter.role_slug }}
+
+See [ansible-role](https://code.europa.eu/-/snippets/1) for instructions.
+
+Please verify the script integrity first.
+
 License
 -------
 
@@ -35,4 +44,4 @@ Licensed under the EUPL-1.2 or later.
 Author Information
 ------------------
 
-ECGALAXY team.
+[ECGALAXY](https://code.europa.eu/groups/ecgalaxy/-/wikis/home) team.
