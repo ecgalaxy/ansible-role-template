@@ -34,6 +34,11 @@ See [ansible-role](https://code.europa.eu/-/snippets/1) for instructions.
 
 Please verify the script integrity first.
 
+Upgrading & Uninstalling
+------------------------
+
+
+
 License
 -------
 
